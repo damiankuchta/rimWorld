@@ -8,8 +8,6 @@ colonist_start_health = 10
 
 # colony starting stats:
 start_colony_colonist_amount = 3
-start_colony_cooked_food = 10
-start_colony_raw_food = 0
 start_colony_resources = resources_list(wood=10,
                                         stone=10,
                                         metal=10,
@@ -32,4 +30,8 @@ colonist_buff_building_barracks = 1
 building_action_cost = 1
 building_barrack_cost = resources_list(wood=1, stone=1, metal=1)
 building_barrack_max_colonist = 3
+
+actions = ['build', 'hunt', 'cook', 'research', 'trade', 'heal', 'farm']
+
+
 
